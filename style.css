@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* /////////////////////////////// */
+.header h2 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 45px;
+    margin-bottom: 45px;
+}
+.single-country img {
+    width: 100%;
+    border-radius: 10px;
+}
+.single-country {
+    background: #cfcece;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.country {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 70px;
+    grid-row-gap: 35px;
+}
